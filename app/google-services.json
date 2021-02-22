@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "648555317785",
+    "project_id": "fir-kinonet",
+    "storage_bucket": "fir-kinonet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648555317785:android:5c6419b4c3c2cf9e82f888",
+        "android_client_info": {
+          "package_name": "com.example.kinonet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648555317785-8sqn15v1otqob51d1ha0nrv32521migt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kinonet",
+            "certificate_hash": "1e21966aa27e8269e80eeda12d437f5ed370a14b"
+          }
+        },
+        {
+          "client_id": "648555317785-stvtam8g8j53ot9vk4od1trk4uqu12pu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOJpg2HjF-8RILPQKZknv5klHbZ19ZlPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648555317785-stvtam8g8j53ot9vk4od1trk4uqu12pu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

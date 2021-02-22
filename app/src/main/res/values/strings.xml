@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kinonet</string>
+    <string name="log_in">Log in</string>
+    <string name="icon_app">Icon App</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="register_here">Register here</string>
+    <string name="register">Register</string>
+    <string name="splash">splashgif</string>
+    <string name="full_name">Full Name</string>
+    <string name="create">Create</string>
+</resources>

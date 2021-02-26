@@ -1,6 +1,5 @@
 package com.tuantran.cloudfirestore2.Database
 
-import android.util.Log
 import com.google.firebase.firestore.FirebaseFirestore
 
 class FirestoreContext{
@@ -25,9 +24,6 @@ class FirestoreContext{
                 if (documents.isEmpty){
                     fsCallBack.onSuccess("null")
                 }else{
-//                    for (document in documents) {
-//                        Log.d(Tag, "${document.id} => ${document.data}")
-//                    }
                     fsCallBack.onSuccess(documents.first().data["password"].toString())
                 }
             }
@@ -40,7 +36,8 @@ class FirestoreContext{
         val data = hashMapOf(
             "username" to username,
             "password" to pass,
-            "fullname" to fullname
+            "fullname" to fullname,
+            "avatar" to "https://firebasestorage.googleapis.com/v0/b/fir-kinonet.appspot.com/o/AccountAvatar%2Fmovie.svg?alt=media&token=06096280-3605-4732-8baf-b7213fa3632e"
         )
 
         db.collection("users")

@@ -7,7 +7,7 @@ import android.util.Log
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.kinonet.R
-import com.example.kinonet.code.View.Main.HomeActivity
+import com.example.kinonet.code.View.Main.ContainerActivity
 import com.tuantran.cloudfirestore2.Database.FirestoreContext
 
 class LoginActivity : AppCompatActivity(){
@@ -82,7 +82,7 @@ class LoginActivity : AppCompatActivity(){
             Toast.makeText(this, "Password isn't correct", Toast.LENGTH_SHORT).show()
         }else{
             Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
-            startActivity(Intent(this,HomeActivity::class.java))
+            startActivity(Intent(this,ContainerActivity::class.java))
         }
     }
 

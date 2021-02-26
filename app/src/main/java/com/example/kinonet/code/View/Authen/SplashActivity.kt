@@ -7,7 +7,7 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.example.kinonet.R
-import com.example.kinonet.code.View.Main.HomeActivity
+import com.example.kinonet.code.View.Main.ContainerActivity
 import java.util.*
 import kotlin.concurrent.schedule
 
@@ -32,7 +32,7 @@ class SplashActivity : AppCompatActivity() {
     private fun checkAccount() {
          val isRemembered = preference.getBoolean("RememberMe",false)
             if (isRemembered){
-                startActivity(Intent(this,HomeActivity::class.java))
+                startActivity(Intent(this,ContainerActivity::class.java))
             }else{
                 startActivity(Intent(this,LoginActivity::class.java))
             }
